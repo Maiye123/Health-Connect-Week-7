@@ -147,3 +147,73 @@ Before Week 8, the remaining priorities are:
 ## Key Takeaway
 
 Week 7 moved the Data Analytics work from analysis and integration toward systematic testing and validation. Existing findings were re-tested rather than recreated, limitations were documented, and new gender-stratified analysis was provided to Data Science to support further model testing.
+
+
+
+
+
+
+
+
+
+
+
+HealthConnect Clinic Experience Lab — Final Data Analytics Contribution
+
+Week 8
+
+This repository contains the final Data Analytics contribution for the HealthConnect project: a decision-support dashboard, validated findings, business recommendations, and supporting documentation.
+
+Analytics journey
+
+Week 4: Problem understanding, resource review and analytical planning.
+
+Week 5: EDA, KPI development, Power BI dashboard, business insights and recommendations.
+
+Week 6: Deeper analysis, validation and cross-track integration with Data Science.
+
+Week 7: KPI validation, dashboard/source reconciliation, analytical testing, refinement and retesting.
+
+Week 8: Final integration, decision support and presentation.
+
+Final validated KPIs
+
+Total appointments: 5,000
+
+Unique patients: 1,696
+
+No-show rate: 48.46%
+
+Attendance rate: 46.28%
+
+Cancellation rate: 5.26%
+
+Key validated findings
+
+Observed no-show rates increase across previous no-show history bands.
+
+The 31–60 day booking lead-time segment remains elevated across appointment types.
+
+Reminder-sent appointments show a lower observed no-show rate, but the analysis does not establish causation.
+
+Appointments at 20 km or more show an elevated observed no-show rate.
+
+Gender-stratified analysis provided targeted evidence for further Data Science investigation.
+
+Limitations
+
+The dataset does not contain stated reasons for missed appointments. It also contains missing distance and waiting-time values, inconsistent date representation relative to the supplied lead-time field, and no transport, cost, capacity, insurance or financial variables. Findings are descriptive associations rather than causal conclusions.
+
+Final dashboard focus
+
+The final dashboard should retain the validated KPI and core analytical visuals and, where not already present, include:
+
+Appointment Type × Lead-Time Band
+
+Previous No-Shows × Lead-Time Band
+
+Neutral reminder wording
+
+Key Insights / Decision Support section
+
+Concise limitations and methodology note
